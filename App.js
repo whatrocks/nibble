@@ -20,6 +20,16 @@ const NIBBLES = [
   '1100',
 ];
 
+/*
+ nibbles
+ put the nibbles in the right slots to fix 
+ their communications device and send them
+ back to their dimension before they take
+ over this universe. they are von neumann
+ devices called nibbles. their device only
+ speaks binary and you need to help.
+*/
+
 export default function App() {
   const random_idx = Math.floor(Math.random() * NIBBLES.length);
   const random_nibble = NIBBLES[random_idx];
